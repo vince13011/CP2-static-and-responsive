@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body  class="container">
+<body class="container">
 
     <header class="container__half header">
         <a class="logo" href="index.html">
@@ -19,28 +19,40 @@
                 News
             </span>
         </a>
+        <section class="intro" lang="en">
+            <h1 class="intro__title">Latest news <span class="intro__title__suffix">from our students</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia sint cum ab exercitationem nobis
+                nulla, error quibusdam.</p>
+        </section>
+
+        <nav class="menu">
+            <a  href="chemin/mentions-legales.html" class="menu__link">Mentions légales</a>
+            <a  href="chemin/vers/plan.html" class="menu__link">Plan du site</a>
+            <a  href="contact.html" class="menu__link">Contact</a>
+        </nav>
     </header>
 
-        <main class="container__half content">
-            <h1 class="content__title">Latest news</h1>
+    <main class="container__half content">
+        <h1 class="content__title">Latest news</h1>
 
-            <div class="posts">
-                <article class="post">
-                    <header class="post__header">
-                        <p class="post__tag post__tag--news">news</p>
-                        <h2 class="post__title">Lorem ipsum dolor sit amet</h2>
-                        <div class="post__infos">
-                            <img class="post__avatar" src="../images/icon-dar.png" alt="Avatar de John Marchill">
-                            <p class="post__author">John Marchill</p>
-                            <!-- via la balise time on peut configurer un attribut datetime pour rendre la date compréhensible par un robot, on la mettra au format YYYY-MM-DD -->
-                            <time class="post__date" datetime="2019-07-21">le 21 Juillet 2019</time>
-                        </div>
-                    </header>
-                    <p class="post__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque suscipit nibh quis porttitor. Voilà, je tenais à le dire.</p>
-                    <footer class="post__footer">
-                        <a class="post__link" href="toto.html">Continue Reading</a>
-                    </footer>
-                </article>
+        <div class="posts">
+            <article class="post">
+                <header class="post__header">
+                    <p class="post__tag post__tag--news">news</p>
+                    <h2 class="post__title">Lorem ipsum dolor sit amet</h2>
+                    <div class="post__infos">
+                        <img class="post__avatar" src="../images/icon-dar.png" alt="Avatar de John Marchill">
+                        <p class="post__author">John Marchill</p>
+                        <!-- via la balise time on peut configurer un attribut datetime pour rendre la date compréhensible par un robot, on la mettra au format YYYY-MM-DD -->
+                        <time class="post__date" datetime="2019-07-21">le 21 Juillet 2019</time>
+                    </div>
+                </header>
+                <p class="post__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                    scelerisque suscipit nibh quis porttitor. Voilà, je tenais à le dire.</p>
+                <footer class="post__footer">
+                    <a class="post__link" href="toto.html">Continue Reading</a>
+                </footer>
+            </article>
     </main>
 
 </body>
