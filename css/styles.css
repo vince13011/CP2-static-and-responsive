@@ -10,21 +10,32 @@ p {
     display: flex;
     align-items: flex-start;
 }
-.container__left {
+.container__half {
     width: 50%;
 }
 .header {
-    background-color: orange;
-    background-image: url('../images/nicole.jpg');
-    background-size: cover;
-    background-position: 25% 32%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     padding: 1.5rem;
-    position: fixed;
     top: 0;
     left: 0;
+    position: fixed;
+    background-image: url('../images/nicole.jpg');
+    background-size: cover;
+    background-position: 25% 32%;
+    background-color: orange;
+}
+
+
+.logo {
+   
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    color: white;
+    align-items: flex-start;
 }
