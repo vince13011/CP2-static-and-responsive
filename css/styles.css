@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+.container__left {
+    width: 50%;
+}
+.header {
+    background-color: orange;
+    background-image: url('../images/nicole.jpg');
+    background-size: cover;
+    background-position: 25% 32%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
