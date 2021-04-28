@@ -34,18 +34,64 @@ p {
    
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.2rem;
     display: flex;
     color: white;
+    font-size: 1.5rem;
     align-items: flex-start;
 }
 
+.header__intro {
+    background-color: rgb(255, 255, 255, .3);
+    padding: 1.5rem;
+    text-align: right;
+    padding-left: 20%;
+    color: white;
+}
+
+.header__intro__title {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+
+.header__intro__subtitle {
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 0.5rem;
+}
+
+.header__intro__excerpt {
+    line-height: 1.3rem;
+}
+
+
+.menu {
+    align-self: flex-end;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.menu__link {
+    margin-left: 1.5rem;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
 
 .content {
     margin-left: 50%;  
     background-color: white;
 }
 
+.content__title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+}
 
 .posts {
     display: flex;
